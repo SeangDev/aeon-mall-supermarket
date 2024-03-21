@@ -33,5 +33,7 @@ while True:
         else:
             print(f"{pro_name} not found in inventory.")
     # 3
-   
+    elif user_input == "4":
+        print("Quitting the program. Goodbye!")
+        break
     # 4
