@@ -1,13 +1,15 @@
 item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Book" : 5}
 
 while True:
+    # 1
     print("1. Inventory inquiry")
     print("2. Incoming stock")
     print("3. Outgoing stock")
     print("4. Quit")
 
     # 2
-    
+    user_input = input("Enter your choice (1-4): ")
+
     if user_input == "1":
         pro_name = input("Enter the name of the product: ")
         if pro_name in item_dic:
