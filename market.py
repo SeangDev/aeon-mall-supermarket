@@ -9,32 +9,32 @@ while True:
     print("4. Quit")
 
     # 2
-    user_input = input("Enter your choice (1-4): ")
+    user_choice = input("Enter your choice (1-4): ")
 
-    if user_input == "1":
+    if user_choice == "1":
         pro_name = input("Enter the name of the product: ")
         if pro_name in item_dic:
             print(f"Inventory of {pro_name} : {item_dic[pro_name]}")
         else:
             print(f"{pro_name} not found in inventory.")
-    elif user_input == "2":
+    elif user_choice == "2":
         pro_name, qty = input("Enter name and quantity of the product : ").split()
         qty = int(qty) # convert qty
         if pro_name in item_dic: 
-            item_dic[pro_name] += qty # increase user_input product.
+            item_dic[pro_name] += qty # increase user_choice product.
             print(qty, 'of', pro_name, '(s) added to the inventory.')
         else:
             print(f"{pro_name} not found in inventory.")
-    elif user_input == "3" :
+    elif user_choice == "3" :
         pro_name, qty = input("Enter name and quantity of the product : ").split()
         qty = int(qty) # convert qty
         if pro_name in item_dic: 
-            item_dic[pro_name] -= qty # increase user_input product.
+            item_dic[pro_name] -= qty # increase user_choice product.
             print(qty, 'of', pro_name, '(s) substracted from the inventory.')
         else:
             print(f"{pro_name} not found in inventory.")
     # 3
-    elif user_input == "4":
+    elif user_choice == "4":
         print("Quitting the program. Goodbye!")
         break
     # 4
