@@ -1,8 +1,8 @@
-item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Book" : 5, "Pepsi" : 7, "Coconut" : 8}
+item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Book" : 5, "Pepsi" : 7}
 
 while True:
     # 1
-    print("Menu Bar")
+    print("Menu Bar :")
     print("1. Inventory inquiry")
     print("2. Incoming stock")
     print("3. Outgoing stock")
