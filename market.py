@@ -2,7 +2,7 @@ item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Bo
 
 while True:
     # 1
-    print("Menu Bar")
+    print("Menu Bar")  lol
     print("1. Inventory inquiry")
     print("2. Incoming stock")
     print("3. Outgoing stock")
