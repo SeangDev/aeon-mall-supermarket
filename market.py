@@ -7,7 +7,7 @@ while True:
     print("2. Incoming stock")
     print("3. Outgoing stock")
     print("4. Quit")
-
+ 
     # 2
     user_input = input("Enter your choice (1-4): ")
 
